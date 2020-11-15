@@ -15,7 +15,7 @@
                 <li><a href="">Things You Need To Know Before Learn Python</a></li>
                 <li><a href="">Hello World</a></li>
                 <li><a href="">Variables</a></li>
-                <li><a href=""></a></li>
+                <li><a href="">Variable Names</a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
             </ul>
@@ -25,7 +25,9 @@
                 <header class="section-header">
                     <h3>Introduction</h3>
                 </header>
-                <p>Python is a general-purpose programming language that can be used for a wide variety of software development besides web development. <br> Python is easy-to-read and powerful, it includes high-level data structures, dynamic typing, dynamic binding, and many more features that make it as useful for complex application development as it is for scripting that connects components together. </p>
+                <p>Python is a general-purpose programming language that can be used for a wide variety of software development besides web development. 
+                    <br>
+                     Python is easy-to-read and powerful, it includes high-level data structures, dynamic typing, dynamic binding, and many more features that make it as useful for complex application development as it is for scripting that connects components together. </p>
                 <p>Python can be used for things like:
                     <ul>
                         <li>Back-end(or server-side) web and mobile development </li>
@@ -63,22 +65,67 @@
                 <header class="section-header">
                     <h3>Variables</h3>
                 </header>
-                <p>Variables are symbolic names for values in your application,they are reserved memory locations for storing values. <br> In simple terms, variables are names given to objects, so that it becomes easy to refer to a value(in otherwards a variable points to an object since "Every variable in Python is an object")</p>
-                <p>Unlike other programming languages, Python has no <command>for declaring a variable. A variable is created the moment you first assign a value to it. <br> Variables do not need to be declared with any particular type, and can even change the type after they have been set. </p>
+                <p>Variables are symbolic names for values in your application,they are reserved memory locations for storing values. 
+                    <br> 
+                    In simple terms, variables are names given to objects, so that it becomes easy to refer to a value(in otherwards a variable points to an object since "Every variable in Python is an object")</p>
+                <p>Unlike other programming languages, Python has no <command>for declaring a variable. A variable is created the moment you first assign a value to it. 
+                    <br>
+                     Variables do not need to be declared with any particular type, and can even change the type after they have been set. </p>
                 <p>
                     <h4>Example:</h4>
                 </p>
-                <code>x = 5 <br> y = "John" <br> print(x) <br> print(y)</code> 
+                <code>
+                    x = 5 
+                    <br>
+                     y = "John"
+                    <br>
+                    print(x)
+                    <br> 
+                    print(y)
+                </code> 
                 <p>Then hit the run button to see the output.</p>
-                <code>x = 5 #x is of type int(integer) <br> y = "John" #y is of type str (string) </code>
+                <code>
+                    x = 5 #x is of type int(integer) 
+                    <br> 
+                    y = "John" #y is of type str (string) 
+                </code>
             </section>
-            <section class="main-section" id="">
+            <section class="main-section" id="Variable_Names">
                 <header class="section-header">
-                    <h3></h3>
+                    <h3>Variable Names</h3>
                 </header>
-                <p></p>
-                <p></p>
-                <code></code>
+                <p>A variable can a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:</p>
+                <p>
+                    <ul>
+                        <li>A variable name must start with a letter or the underscore character</li>
+                        <li>A variable name cannot start with a number</li>
+                        <li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+                        <li>Variable names are case-sensitive (age, Age and AGE are three different variables)</li>
+                        <li>A variable name must have a meaning in relation to its value</li>
+                    </ul>
+                </p>
+                <p>Legal variable names:</p>
+                <code>
+                    myvar = "John"
+                    <br>
+                    my_var = "John"
+                    <br>
+                    _my_var = "John"
+                    <br>
+                    myVar = "John"
+                    <br>
+                    MYVAR = "John"
+                    <br>
+                    myvar2 = "John"
+                </code>
+                <p>Illegal variable names:</p>
+                <code>
+                    2myvar = "John"
+                    <br>
+                    my-var = "John"
+                    <br>
+                    my var = "John
+                </code>
             </section>
         </main>
     </div>
