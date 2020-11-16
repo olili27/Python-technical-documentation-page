@@ -19,7 +19,7 @@
                 <li><a href="">Global Variables</a></li>
                 <li><a href="">Data Types</a></li>
                 <li><a href="">If ... Else Statement</a></li>
-                <li><a href=""></a></li>
+                <li><a href="">Loops</a></li>
                 <li><a href=""></a></li>
             </ul>
         </nav>
@@ -354,24 +354,90 @@
                 <code>
                     if [boolean expression_1]:
                     <br>
-                        >>> [statement_1]
+                        >>> statement_1
                     <br>
                     elif [boolean expresion_2]:
                     <br>
-                        >>> [statement_2]
+                        >>> statement_2
                     <br>
                     elif [boolean expresion_3]:
                     <br>
-                        >>> [statement_3]
+                        >>> statement_3
                     <br>
                     elif [boolean expresion_4]:
                     <br>
-                        >>> [statement_4]
+                        >>> statement_4
                     <br>
                     else:
                     <br>
-                        >>> [statement_5]
+                        >>> statement_5
                 </code>
+            </section>
+            <section class="main-section" id="Loops">
+                <header class="section-header">
+                    <h3>Loops</h3>
+                </header>
+                <p>A loop statement allows us to execute a statement or group of statements multiple times.</p>
+                <p>
+                    Python has  two primitve loops commands.
+                    <ul>
+                        <li>while loops</li>
+                        <li>for loops</li>
+                    </ul>
+                </p>
+                <h4>While loop</h4>
+                <p>A while loop statement repeatedly executes a target statement as long as a given condition is true.</p>
+                <p>The syntax of a while loop in Python programming language is:</p>
+                <code>
+                    while [expression]:
+                    <br>
+                        >>> statement(s)
+                </code>
+                <p>Here, statement(s) may be a single statement or a block of statements. The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.
+                    <br>
+                When the condition becomes false, program control passes to the line immediately following the loop</p>
+                <code>
+                    count = 0
+                    <br>
+                    while (count < 9):
+                    <br>
+                        >>> print 'The count is:', count
+                    <br>
+                        >>> count = count + 1
+                    <br>
+                    <br>
+                    print "Good bye!"
+                </code>
+                <p>Then hit the run button to see the output.</p>
+                <h4>For loop</h4>
+                <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+                    <br>
+                    With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc
+                </p>
+                <p>Syntax</p>
+                <code>
+                    for iterating_var in sequence:
+                    <br>
+                        >>> statements(s)
+                </code>
+                <p>If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var. Next, the statements block is executed. Each item in the list is assigned to iterating_var, and the statement(s) block is executed until the entire sequence is exhausted.</p>
+                <code>
+                    for letter in 'Python':     # First Example
+                    <br>
+                        >>> print 'Current Letter :', letter
+                    <br>
+                    <br>
+
+                    fruits = ['banana', 'apple',  'mango']  # Second Example
+                    <br>
+                    for fruit in fruits:                            
+                    <br>
+                        >>> print 'Current fruit :', fruit
+                    <br>
+                    <br>
+                    print "Good bye!"
+                </code>
+                <p>Then hit the run button to see the output.</p>
             </section>
         </main>
     </div>
