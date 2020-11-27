@@ -14,7 +14,7 @@
             </header>
             <ul>
                 <li><a href="#Introduction">Introduction</a></li>
-                <li><a href="#Things_You_Need_To_Know_Before_You_Learn_Python">Things You Need To Know Before You Learn Python</a></li>
+                <li><a href="#Things_You_Need_To_Know">Things You Need To Know</a></li>
                 <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
                 <li><a class="nav-link" href="#Variables">Variables</a></li>
                 <li><a class="nav-link" href="#Variable_Names">Variable Names</a></li>
@@ -43,9 +43,9 @@
                     </ul>
                 </p>
             </section>
-            <section class="main-section" id="Things_You_Need_To_Know_Before_You_Learn_Python">
+            <section class="main-section" id="Things_You_Need_To_Know">
                 <header class="section-header">
-                    <h3>Things You Need To Know Before You Learn Python</h3>
+                    <h3>Things You Need To Know</h3>
                 </header>
                 <p>Below is a list of some of the prequisites for you:</p>
                 <p>
@@ -64,7 +64,11 @@
                 </header>
                 <p>Python has a straight forwad syntax, it encourages a programmer to program without a boilerplate(prepared) code. The simplest directive in Python is the "print" command - it simply outputs a line of code(and also includes a newline).</p>
                 <p>To get started with writing Python, just open a text editor of your choice and write this code:</p>
-                <code>&nbsp;&nbsp;print("Hello World")</code>
+                <div class="code">
+                    <div class="code">
+                        <code>&nbsp;&nbsp;print("Hello World")</code>
+                    </div>
+                </div>
             </section>
             <section class="main-section" id="Variables">
                 <header class="section-header">
@@ -79,22 +83,26 @@
                 <p>
                     <h4>Example:</h4>
                 </p>
-                <code>
-                    &nbsp;&nbsp;x = 5 
-                    <br>
-                    &nbsp;&nbsp;y = "John"
-                    <br>
-                    &nbsp;&nbsp;print(x)
-                    <br> 
-                    &nbsp;&nbsp;print(y)
-                </code> 
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x = 5 
+                        <br>
+                        &nbsp;&nbsp;y = "John"
+                        <br>
+                        &nbsp;&nbsp;print(x)
+                        <br> 
+                        &nbsp;&nbsp;print(y)
+                    </code>
+                </div> 
                 <br>
                 <br>
-                <code>
-                    &nbsp;&nbsp;x = 5 #x is of type int(integer) 
-                    <br> 
-                    &nbsp;&nbsp;y = "John" #y is of type str (string) 
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x = 5 #x is of type int(integer) 
+                        <br> 
+                        &nbsp;&nbsp;y = "John" #y is of type str (string) 
+                    </code>
+                </div>
             </section>
             <section class="main-section" id="Variable_Names">
                 <header class="section-header">
@@ -111,50 +119,58 @@
                     </ul>
                 </p>
                 <p>Legal variable names:</p>
-                <code>
-                    &nbsp;&nbsp;myvar = "John"
-                    <br>
-                    &nbsp;&nbsp;my_var = "John"
-                    <br>
-                    &nbsp;&nbsp;_my_var = "John"
-                    <br>
-                    &nbsp;&nbsp;myVar = "John"
-                    <br>
-                    &nbsp;&nbsp;MYVAR = "John"
-                    <br>
-                    &nbsp;&nbsp;myvar2 = "John"
-                </code>
+                    <div class="code">
+                        <code>
+                            &nbsp;&nbsp;myvar = "John"
+                            <br>
+                            &nbsp;&nbsp;my_var = "John"
+                            <br>
+                            &nbsp;&nbsp;_my_var = "John"
+                            <br>
+                            &nbsp;&nbsp;myVar = "John"
+                            <br>
+                            &nbsp;&nbsp;MYVAR = "John"
+                            <br>
+                            &nbsp;&nbsp;myvar2 = "John"
+                        </code>
+                    </div>
                 <p>Illegal variable names:</p>
-                <code>
-                    &nbsp;&nbsp;2myvar = "John"
-                    <br>
-                    &nbsp;&nbsp;my-var = "John"
-                    <br>
-                    &nbsp;&nbsp;my var = "John
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;2myvar = "John"
+                        <br>
+                        &nbsp;&nbsp;my-var = "John"
+                        <br>
+                        &nbsp;&nbsp;my var = "John
+                    </code>
+                </div>
                 <p>
                     <h4>Assign Value to Multiple Variables</h4>
                     Python allows you to assign values to multiple variables in one line:
                 </p>
-                <code>
-                    &nbsp;&nbsp;x, y, z = "Orange", "Banana", "Cherry"
-                    <br>
-                    &nbsp;&nbsp;print(x)
-                    <br>
-                    &nbsp;&nbsp;print(y)
-                    <br>
-                    &nbsp;&nbsp;print(z)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x, y, z = "Orange", "Banana", "Cherry"
+                        <br>
+                        &nbsp;&nbsp;print(x)
+                        <br>
+                        &nbsp;&nbsp;print(y)
+                        <br>
+                        &nbsp;&nbsp;print(z)
+                    </code>
+                </div>
                 <p>And you can assign the same value to multiple variables in one line:</p>
-                <code>
-                    &nbsp;&nbsp;x = y = z = "Orange"
-                    <br>
-                    &nbsp;&nbsp;print(x)
-                    <br>
-                    &nbsp;&nbsp;print(y)
-                    <br>
-                    &nbsp;&nbsp;print(z)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x = y = z = "Orange"
+                        <br>
+                        &nbsp;&nbsp;print(x)
+                        <br>
+                        &nbsp;&nbsp;print(y)
+                        <br>
+                        &nbsp;&nbsp;print(z)
+                    </code>
+                </div>
             </section>
             <section class="main-section" id="Global_Variables">
                 <header class="section-header">
@@ -163,70 +179,78 @@
                 <p>Variables that are created outside of a function are known as Global Variables</p>
                 <p>Global variables can be used by everyone, both inside of functions and outside.</p>
                 <p>Create a variable outside of a function, and use it inside the function:</p>
-                <code>
-                    &nbsp;&nbsp;x = "awesome"
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;def myfunc():
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; print("Python is " + x)
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;myfunc()
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x = "awesome"
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;def myfunc():
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; print("Python is " + x)
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;myfunc()
+                    </code>
+                </div>
                 <p>Create a variable inside a function, with the same name as the global variable:</p>
-                <code>
-                    &nbsp;&nbsp;x = "awesome"
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;def myfunc():
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; print("Python is " + x)
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;myfunc()
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;print("Python is " + x)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x = "awesome"
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;def myfunc():
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; print("Python is " + x)
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;myfunc()
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;print("Python is " + x)
+                    </code>
+                </div>
                 <h4>The global keyword</h4>
                 <p>Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.</p>
                 <p>To create a global variable inside a function, you can use the global keyword.
                     <br>
                     If you use the global keyword, the variable belongs to the global scope:
                 </p>
-                <code>
-                    &nbsp;&nbsp;def myfunc():
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; global x
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;myfunc()
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;print("Python is " + x)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;def myfunc():
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; global x
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;myfunc()
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;print("Python is " + x)
+                    </code>
+                </div>
                 <p>Also, use the global keyword if you want to change a global variable inside a function, refer to the variable by using the global keyword:</p>
-                <code>
-                    &nbsp;&nbsp;x = "awesome"
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;def myfunc():
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; global x
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;myfunc()
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;print("Python is " + x)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;x = "awesome"
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;def myfunc():
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; global x
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;myfunc()
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;print("Python is " + x)
+                    </code>
+                </div>
             </section>
             <section class="main-section" id="Data_Types">
                 <header class="section-header">
@@ -337,39 +361,43 @@
                     <h3>If ... Else Statement</h3>
                 </header>
                 <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
-                <code>
-                    &nbsp;&nbsp;if (condition):
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;  statement_1  
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;if (condition):
                         <br>
-                     &nbsp;&nbsp;else: 
-                     <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;  statement_2
-                </code>
+                            &nbsp;&nbsp;&nbsp;&nbsp;  statement_1  
+                            <br>
+                         &nbsp;&nbsp;else: 
+                         <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;  statement_2
+                    </code>
+                </div>
                 <p>Condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.</p>
                 <h4>Elif statement</h4>
                 <p>Use the elif condition is used to include multiple conditional expressions between if and else as follows:</p>
-                <code>
-                    &nbsp;&nbsp;if [boolean expression_1]:
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; statement_1
-                    <br>
-                    &nbsp;&nbsp;elif [boolean expresion_2]:
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; statement_2
-                    <br>
-                    &nbsp;&nbsp;elif [boolean expresion_3]:
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; statement_3
-                    <br>
-                    &nbsp;&nbsp;elif [boolean expresion_4]:
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; statement_4
-                    <br>
-                    &nbsp;&nbsp;else:
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; statement_5
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;if [boolean expression_1]:
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; statement_1
+                        <br>
+                        &nbsp;&nbsp;elif [boolean expresion_2]:
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; statement_2
+                        <br>
+                        &nbsp;&nbsp;elif [boolean expresion_3]:
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; statement_3
+                        <br>
+                        &nbsp;&nbsp;elif [boolean expresion_4]:
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; statement_4
+                        <br>
+                        &nbsp;&nbsp;else:
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; statement_5
+                    </code>
+                </div>
             </section>
             <section class="main-section" id="Loops">
                 <header class="section-header">
@@ -386,54 +414,62 @@
                 <h4>While loop</h4>
                 <p>A while loop statement repeatedly executes a target statement as long as a given condition is true.</p>
                 <p>The syntax of a while loop in Python programming language is:</p>
-                <code>
-                    &nbsp;&nbsp;while [expression]:
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; statement(s)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;while [expression]:
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; statement(s)
+                    </code>
+                </div>
                 <p>Here, statement(s) may be a single statement or a block of statements. The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.
                     <br>
                 When the condition becomes false, program control passes to the line immediately following the loop</p>
-                <code>
-                    &nbsp;&nbsp;count = 0
-                    <br>
-                    &nbsp;&nbsp;while (count < 9):
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; print 'The count is:', count
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; count = count + 1
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;print "Good bye!"
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;count = 0
+                        <br>
+                        &nbsp;&nbsp;while (count < 9):
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; print 'The count is:', count
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; count = count + 1
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;print "Good bye!"
+                    </code>
+                </div>
                 <h4>For loop</h4>
                 <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
                     <br>
                     With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc
                 </p>
                 <p>Syntax:</p>
-                <code>
-                    &nbsp;&nbsp;for iterating_var in sequence:
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; statements(s)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;for iterating_var in sequence:
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; statements(s)
+                    </code>
+                </div>
                 <p>If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var. Next, the statements block is executed. Each item in the list is assigned to iterating_var, and the statement(s) block is executed until the entire sequence is exhausted.</p>
-                <code>
-                    &nbsp;&nbsp;for letter in 'Python':     # First Example
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; print 'Current Letter :', letter
-                    <br>
-                    <br>
-
-                    &nbsp;&nbsp;fruits = ['banana', 'apple',  'mango']  # Second Example
-                    <br>
-                    &nbsp;&nbsp;for fruit in fruits:                            
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; print 'Current fruit :', fruit
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;print "Good bye!"
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;for letter in 'Python':     # First Example
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; print 'Current Letter :', letter
+                        <br>
+                        <br>
+    
+                        &nbsp;&nbsp;fruits = ['banana', 'apple',  'mango']  # Second Example
+                        <br>
+                        &nbsp;&nbsp;for fruit in fruits:                            
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; print 'Current fruit :', fruit
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;print "Good bye!"
+                    </code>
+                </div>
             </section>
             <section class="main-section" id="Functions">
                 <header class="section-header">
@@ -446,40 +482,46 @@
                     A function can return data as a result
                 </p>
                 <p>In Python a function is defined using the def keyword followed by the function name and parentheses "()":</p>
-                <code>
-                    &nbsp;&nbsp;def function_name( parameters ):
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; function_suite
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;def my_function(str):
-                    <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp; print("Hello " + str)
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;def function_name( parameters ):
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; function_suite
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;def my_function(str):
+                        <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; print("Hello " + str)
+                    </code>
+                </div>
                 <p>To call a function, use the function name followed by parenthesis:</p>
-                <code>
-                    &nbsp;&nbsp;def my_function():
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; print("Hello from a function")
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;my_function()
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;def my_function():
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; print("Hello from a function")
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;my_function()
+                    </code>
+                </div>
                 <p>Information can be passed into functions as arguments during the time when they are being called.</p>
                 <p>Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.</p>
                 <p>The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:</p>
-                <code>
-                    &nbsp;&nbsp;def my_function(fname):
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp; print(fname + " Refsnes")
-                    <br>
-                    <br>
-                    &nbsp;&nbsp;my_function("Emil")
-                    <br>
-                    &nbsp;&nbsp;my_function("Tobias")
-                    <br>
-                    &nbsp;&nbsp;my_function("Linus")
-                </code>
+                <div class="code">
+                    <code>
+                        &nbsp;&nbsp;def my_function(fname):
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; print(fname + " Refsnes")
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;my_function("Emil")
+                        <br>
+                        &nbsp;&nbsp;my_function("Tobias")
+                        <br>
+                        &nbsp;&nbsp;my_function("Linus")
+                    </code>
+                </div>
             </section>
             <section class="main-section" id="Reference">
                 <header class="section-header">
