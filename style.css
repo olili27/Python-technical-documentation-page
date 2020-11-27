@@ -72,7 +72,7 @@ header h1{
 /* main-doc */
 #main-doc{
     position: absolute;
-    width: 80%;
+    width: 75%;
     padding: 2rem;
     margin-left: 25%;
 }
@@ -94,7 +94,7 @@ header h3{
     margin-bottom: 0.5rem;
     background-color:#ddd;
     border-radius: 5px;
-    padding: 1rem;
+    /* padding: 0.5rem; */
 }
 
 h4{
