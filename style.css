@@ -16,7 +16,6 @@ body{
 /* container */
 .container{
     display: flex;
-    /* position: relative; */
 }
 
 a{
@@ -26,7 +25,6 @@ a{
 
 /* navbar */
 #navbar{
-    /* background-color: green; */
     height: 100vh;
     position: fixed;
     border-right: 5px solid #aaa;
@@ -50,7 +48,6 @@ header h1{
 
 #navbar ul{
     width: 100%;
-    /* background-color: yellowgreen; */
     padding: 0;
 }
 
@@ -61,7 +58,6 @@ header h1{
     padding: 0.3rem;
     padding-left: 0;
     padding-right: 0;
-    /* background-color: red; */
     border-top: 1px solid #555;
 }
 
@@ -75,11 +71,10 @@ header h1{
 
 /* main-doc */
 #main-doc{
-    /* position: absolute; */
+    position: absolute;
     width: 80%;
     padding: 2rem;
     margin-left: 25%;
-    /* background-color: yellow; */
 }
 
 .main-section{
@@ -99,6 +94,7 @@ header h3{
     margin-bottom: 0.5rem;
     background-color:#ddd;
     border-radius: 5px;
+    padding: 1rem;
 }
 
 h4{
@@ -124,5 +120,18 @@ table th{
     .container{
         display: block;
     } 
+
+    #navbar{
+        position: absolute;
+        /* width: 100%; */
+    }
+
+    #main-doc{
+        position: absolute;
+        /* width: 80%; */
+        /* padding: 2rem; */
+        margin-left: 25%;
+        /* background-color: yellow; */
+    }
 }
 /* media query */
