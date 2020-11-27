@@ -109,13 +109,13 @@ table th{
 }
 
 #Reference a{
-    color: #799;
+    color: #488;
     font-size: 1.2rem;
 }
 
 #Reference a:hover{
     text-decoration: underline;
-    font-size: 1.28rem;
+    font-size: 1.22rem;
 }
 /* main-doc */
 
