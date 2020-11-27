@@ -64,8 +64,7 @@
                 </header>
                 <p>Python has a straight forwad syntax, it encourages a programmer to program without a boilerplate(prepared) code. The simplest directive in Python is the "print" command - it simply outputs a line of code(and also includes a newline).</p>
                 <p>To get started with writing Python, just open a text editor of your choice and write this code:</p>
-                <code>print("Hello World")</code>
-                <p class="action_call">Then hit the run button to see the output.</p>
+                <code>&nbsp;&nbsp;print("Hello World")</code>
             </section>
             <section class="main-section" id="Variables">
                 <header class="section-header">
@@ -81,19 +80,20 @@
                     <h4>Example:</h4>
                 </p>
                 <code>
-                    x = 5 
+                    &nbsp;&nbsp;x = 5 
                     <br>
-                     y = "John"
+                    &nbsp;&nbsp;y = "John"
                     <br>
-                    print(x)
+                    &nbsp;&nbsp;print(x)
                     <br> 
-                    print(y)
+                    &nbsp;&nbsp;print(y)
                 </code> 
-                <p class="action_call">Then hit the run button to see the output.</p>
+                <br>
+                <br>
                 <code>
-                    x = 5 #x is of type int(integer) 
+                    &nbsp;&nbsp;x = 5 #x is of type int(integer) 
                     <br> 
-                    y = "John" #y is of type str (string) 
+                    &nbsp;&nbsp;y = "John" #y is of type str (string) 
                 </code>
             </section>
             <section class="main-section" id="Variable_Names">
@@ -112,51 +112,49 @@
                 </p>
                 <p>Legal variable names:</p>
                 <code>
-                    myvar = "John"
+                    &nbsp;&nbsp;myvar = "John"
                     <br>
-                    my_var = "John"
+                    &nbsp;&nbsp;my_var = "John"
                     <br>
-                    _my_var = "John"
+                    &nbsp;&nbsp;_my_var = "John"
                     <br>
-                    myVar = "John"
+                    &nbsp;&nbsp;myVar = "John"
                     <br>
-                    MYVAR = "John"
+                    &nbsp;&nbsp;MYVAR = "John"
                     <br>
-                    myvar2 = "John"
+                    &nbsp;&nbsp;myvar2 = "John"
                 </code>
                 <p>Illegal variable names:</p>
                 <code>
-                    2myvar = "John"
+                    &nbsp;&nbsp;2myvar = "John"
                     <br>
-                    my-var = "John"
+                    &nbsp;&nbsp;my-var = "John"
                     <br>
-                    my var = "John
+                    &nbsp;&nbsp;my var = "John
                 </code>
                 <p>
                     <h4>Assign Value to Multiple Variables</h4>
                     Python allows you to assign values to multiple variables in one line:
                 </p>
                 <code>
-                    x, y, z = "Orange", "Banana", "Cherry"
+                    &nbsp;&nbsp;x, y, z = "Orange", "Banana", "Cherry"
                     <br>
-                    print(x)
+                    &nbsp;&nbsp;print(x)
                     <br>
-                    print(y)
+                    &nbsp;&nbsp;print(y)
                     <br>
-                    print(z)
+                    &nbsp;&nbsp;print(z)
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
                 <p>And you can assign the same value to multiple variables in one line:</p>
                 <code>
-                    x = y = z = "Orange"
+                    &nbsp;&nbsp;x = y = z = "Orange"
                     <br>
-                    print(x)
+                    &nbsp;&nbsp;print(x)
                     <br>
-                    print(y)
+                    &nbsp;&nbsp;print(y)
                     <br>
-                    print(z)
+                    &nbsp;&nbsp;print(z)
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
             </section>
             <section class="main-section" id="Global_Variables">
                 <header class="section-header">
@@ -166,35 +164,33 @@
                 <p>Global variables can be used by everyone, both inside of functions and outside.</p>
                 <p>Create a variable outside of a function, and use it inside the function:</p>
                 <code>
-                    x = "awesome"
+                    &nbsp;&nbsp;x = "awesome"
                     <br>
                     <br>
-                    def myfunc():
+                    &nbsp;&nbsp;def myfunc():
                     <br>
-                        >>> print("Python is " + x)
+                    &nbsp;&nbsp;&nbsp;&nbsp; print("Python is " + x)
                     <br>
                     <br>
-                    myfunc()
+                    &nbsp;&nbsp;myfunc()
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
                 <p>Create a variable inside a function, with the same name as the global variable:</p>
                 <code>
-                    x = "awesome"
+                    &nbsp;&nbsp;x = "awesome"
                     <br>
                     <br>
-                    def myfunc():
+                    &nbsp;&nbsp;def myfunc():
                     <br>
-                        >>> x = "fantastic"
+                    &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
                     <br>
-                        >>> print("Python is " + x)
-                    <br>
-                    <br>
-                    myfunc()
+                    &nbsp;&nbsp;&nbsp;&nbsp; print("Python is " + x)
                     <br>
                     <br>
-                    print("Python is " + x)
+                    &nbsp;&nbsp;myfunc()
+                    <br>
+                    <br>
+                    &nbsp;&nbsp;print("Python is " + x)
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
                 <h4>The global keyword</h4>
                 <p>Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.</p>
                 <p>To create a global variable inside a function, you can use the global keyword.
@@ -202,37 +198,35 @@
                     If you use the global keyword, the variable belongs to the global scope:
                 </p>
                 <code>
-                    def myfunc():
+                    &nbsp;&nbsp;def myfunc():
                     <br>
-                        >>> global x
+                        &nbsp;&nbsp;&nbsp;&nbsp; global x
                     <br>
-                        >>> x = "fantastic"
-                    <br>
-                    <br>
-                    myfunc()
+                        &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
                     <br>
                     <br>
-                    print("Python is " + x)
+                    &nbsp;&nbsp;myfunc()
+                    <br>
+                    <br>
+                    &nbsp;&nbsp;print("Python is " + x)
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
                 <p>Also, use the global keyword if you want to change a global variable inside a function, refer to the variable by using the global keyword:</p>
                 <code>
-                    x = "awesome"
+                    &nbsp;&nbsp;x = "awesome"
                     <br>
                     <br>
-                    def myfunc():
+                    &nbsp;&nbsp;def myfunc():
                     <br>
-                        >>> global x
+                        &nbsp;&nbsp;&nbsp;&nbsp; global x
                     <br>
-                        >>> x = "fantastic"
-                    <br>
-                    <br>
-                    myfunc()
+                        &nbsp;&nbsp;&nbsp;&nbsp; x = "fantastic"
                     <br>
                     <br>
-                    print("Python is " + x)
+                    &nbsp;&nbsp;myfunc()
+                    <br>
+                    <br>
+                    &nbsp;&nbsp;print("Python is " + x)
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
             </section>
             <section class="main-section" id="Data_Types">
                 <header class="section-header">
@@ -243,96 +237,97 @@
                 <div>
                     <table>
                         <tr>
-                            <td>Text Type:</td>
-                            <td>str</td>
+                            <td>&nbsp;&nbsp;Text Type:</td>
+                            <td>&nbsp;&nbsp;str</td>
                         </tr>
                         <tr>
-                            <td>Numeric Types:</td>
-                            <td>int, float, complex</td>
+                            <td>&nbsp;&nbsp;Numeric Types:</td>
+                            <td>&nbsp;&nbsp;int, float, complex</td>
                         </tr>
                         <tr>
-                            <td>Sequence Types:</td>
-                            <td>list, tuple, range</td>
+                            <td>&nbsp;&nbsp;Sequence Types:</td>
+                            <td>&nbsp;&nbsp;list, tuple, range</td>
                         </tr>
                         <tr>
-                            <td>Mapping Type:	</td>
-                            <td>dict</td>
+                            <td>&nbsp;&nbsp;Mapping Type:	</td>
+                            <td>&nbsp;&nbsp;dict</td>
                         </tr>
                         <tr>
-                            <td>Set Types:	</td>
-                            <td>set, frozenset</td>
+                            <td>&nbsp;&nbsp;Set Types:	</td>
+                            <td>&nbsp;&nbsp;set, frozenset</td>
                         </tr>
                         <tr>
-                            <td>Boolean Type:	</td>
-                            <td>bool</td>
+                            <td>&nbsp;&nbsp;Boolean Type:	</td>
+                            <td&nbsp;&nbsp;>bool</td>
                         </tr>
                         <tr>
-                            <td>Binary Types:	</td>
-                            <td>bytes, bytearray, memoryview</td>
+                            <td>&nbsp;&nbsp;Binary Types:	</td>
+                            <td>&nbsp;&nbsp;bytes, bytearray, memoryview</td>
                         </tr>
                     </table>
                 </div>
+                <br>
                 <div>
                     <table>
                         <tr>
-                            <th>Example</th>
-                            <th>Data Type</th>
+                            <th>&nbsp;&nbsp;Example</th>
+                            <th>&nbsp;&nbsp;Data Type</th>
                         </tr>
                         <tr>
-                            <td>x = "Hello World"</td>
-                            <td>str</td>
+                            <td>&nbsp;&nbsp;x = "Hello World"</td>
+                            <td>&nbsp;&nbsp;str</td>
                         </tr>
                         <tr>
-                            <td>x = 20</td>
-                            <td>int</td>
+                            <td>&nbsp;&nbsp;x = 20</td>
+                            <td>&nbsp;&nbsp;int</td>
                         </tr>
                         <tr>
-                            <td>x = 0.5</td>
-                            <td>float</td>
+                            <td>&nbsp;&nbsp;x = 0.5</td>
+                            <td>&nbsp;&nbsp;float</td>
                         </tr>
                         <tr>
-                            <td>ij</td>
-                            <td>complex</td>
+                            <td>&nbsp;&nbsp;ij</td>
+                            <td>&nbsp;&nbsp;complex</td>
                         </tr>
                         <tr>
-                            <td> [ "apple", "banana", "cherry" ] </td>
-                            <td>list</td>
+                            <td>&nbsp;&nbsp;[ "apple", "banana", "cherry" ] </td>
+                            <td>&nbsp;&nbsp;list</td>
                         </tr>
                         <tr>
-                            <td>( "apple", "banana", "cherry" )</td>
-                            <td>tuple</td>
+                            <td>&nbsp;&nbsp;( "apple", "banana", "cherry" )</td>
+                            <td>&nbsp;&nbsp;tuple</td>
                         </tr>
                         <tr>
-                            <td>x = range(6)</td>
-                            <td>range</td>
+                            <td>&nbsp;&nbsp;x = range(6)</td>
+                            <td>&nbsp;&nbsp;range</td>
                         </tr>
                         <tr>
-                            <td>x = {"name" : "John", "age" : 36}</td>
-                            <td>dict</td>
+                            <td>&nbsp;&nbsp;x = {"name" : "John", "age" : 36}</td>
+                            <td>&nbsp;&nbsp;dict</td>
                         </tr>
                         <tr>
-                            <td>x = {"apple", "banana", "cherry"}</td>
-                            <td>set</td>
+                            <td>&nbsp;&nbsp;x = {"apple", "banana", "cherry"}</td>
+                            <td>&nbsp;&nbsp;set</td>
                         </tr>
                         <tr>
-                            <td>x = frozenset({"apple", "banana", "cherry"})</td>
-                            <td>forzenset</td>
+                            <td>&nbsp;&nbsp;x = frozenset({"apple", "banana", "cherry"})</td>
+                            <td>&nbsp;&nbsp;forzenset</td>
                         </tr>
                         <tr>
-                            <td>x = True</td>
-                            <td>bool</td>
+                            <td>&nbsp;&nbsp;x = True</td>
+                            <td>&nbsp;&nbsp;bool</td>
                         </tr>
                         <tr>
-                            <td>x = b"Hello"</td>
-                            <td>bytes</td>
+                            <td>&nbsp;&nbsp;x = b"Hello"</td>
+                            <td>&nbsp;&nbsp;bytes</td>
                         </tr>
                         <tr>
-                            <td>x = bytearray(5)</td>
-                            <td>bytearray</td>
+                            <td>&nbsp;&nbsp;x = bytearray(5)</td>
+                            <td>&nbsp;&nbsp;bytearray</td>
                         </tr>
                         <tr>
-                            <td>x = memoryview(bytes(5))</td>
-                            <td>memoryview</td>
+                            <td>&nbsp;&nbsp;x = memoryview(bytes(5))</td>
+                            <td>&nbsp;&nbsp;memoryview</td>
                         </tr>
                     </table>
                 </div>
@@ -343,37 +338,37 @@
                 </header>
                 <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
                 <code>
-                    if (condition):
+                    &nbsp;&nbsp;if (condition):
                     <br>
-                        >>>  statement_1  
+                        &nbsp;&nbsp;&nbsp;&nbsp;  statement_1  
                         <br>
-                     else: 
+                     &nbsp;&nbsp;else: 
                      <br>
-                        >>>  statement_2
+                        &nbsp;&nbsp;&nbsp;&nbsp;  statement_2
                 </code>
                 <p>Condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.</p>
                 <h4>Elif statement</h4>
                 <p>Use the elif condition is used to include multiple conditional expressions between if and else as follows:</p>
                 <code>
-                    if [boolean expression_1]:
+                    &nbsp;&nbsp;if [boolean expression_1]:
                     <br>
-                        >>> statement_1
+                        &nbsp;&nbsp;&nbsp;&nbsp; statement_1
                     <br>
-                    elif [boolean expresion_2]:
+                    &nbsp;&nbsp;elif [boolean expresion_2]:
                     <br>
-                        >>> statement_2
+                        &nbsp;&nbsp;&nbsp;&nbsp; statement_2
                     <br>
-                    elif [boolean expresion_3]:
+                    &nbsp;&nbsp;elif [boolean expresion_3]:
                     <br>
-                        >>> statement_3
+                        &nbsp;&nbsp;&nbsp;&nbsp; statement_3
                     <br>
-                    elif [boolean expresion_4]:
+                    &nbsp;&nbsp;elif [boolean expresion_4]:
                     <br>
-                        >>> statement_4
+                        &nbsp;&nbsp;&nbsp;&nbsp; statement_4
                     <br>
-                    else:
+                    &nbsp;&nbsp;else:
                     <br>
-                        >>> statement_5
+                        &nbsp;&nbsp;&nbsp;&nbsp; statement_5
                 </code>
             </section>
             <section class="main-section" id="Loops">
@@ -392,26 +387,25 @@
                 <p>A while loop statement repeatedly executes a target statement as long as a given condition is true.</p>
                 <p>The syntax of a while loop in Python programming language is:</p>
                 <code>
-                    while [expression]:
+                    &nbsp;&nbsp;while [expression]:
                     <br>
-                        >>> statement(s)
+                    &nbsp;&nbsp;&nbsp;&nbsp; statement(s)
                 </code>
                 <p>Here, statement(s) may be a single statement or a block of statements. The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.
                     <br>
                 When the condition becomes false, program control passes to the line immediately following the loop</p>
                 <code>
-                    count = 0
+                    &nbsp;&nbsp;count = 0
                     <br>
-                    while (count < 9):
+                    &nbsp;&nbsp;while (count < 9):
                     <br>
-                        >>> print 'The count is:', count
+                        &nbsp;&nbsp;&nbsp;&nbsp; print 'The count is:', count
                     <br>
-                        >>> count = count + 1
+                        &nbsp;&nbsp;&nbsp;&nbsp; count = count + 1
                     <br>
                     <br>
-                    print "Good bye!"
+                    &nbsp;&nbsp;print "Good bye!"
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
                 <h4>For loop</h4>
                 <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
                     <br>
@@ -419,28 +413,27 @@
                 </p>
                 <p>Syntax:</p>
                 <code>
-                    for iterating_var in sequence:
+                    &nbsp;&nbsp;for iterating_var in sequence:
                     <br>
-                        >>> statements(s)
+                    &nbsp;&nbsp;&nbsp;&nbsp; statements(s)
                 </code>
                 <p>If a sequence contains an expression list, it is evaluated first. Then, the first item in the sequence is assigned to the iterating variable iterating_var. Next, the statements block is executed. Each item in the list is assigned to iterating_var, and the statement(s) block is executed until the entire sequence is exhausted.</p>
                 <code>
-                    for letter in 'Python':     # First Example
+                    &nbsp;&nbsp;for letter in 'Python':     # First Example
                     <br>
-                        >>> print 'Current Letter :', letter
+                        &nbsp;&nbsp;&nbsp;&nbsp; print 'Current Letter :', letter
                     <br>
                     <br>
 
-                    fruits = ['banana', 'apple',  'mango']  # Second Example
+                    &nbsp;&nbsp;fruits = ['banana', 'apple',  'mango']  # Second Example
                     <br>
-                    for fruit in fruits:                            
+                    &nbsp;&nbsp;for fruit in fruits:                            
                     <br>
-                        >>> print 'Current fruit :', fruit
+                        &nbsp;&nbsp;&nbsp;&nbsp; print 'Current fruit :', fruit
                     <br>
                     <br>
-                    print "Good bye!"
+                    &nbsp;&nbsp;print "Good bye!"
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
             </section>
             <section class="main-section" id="Functions">
                 <header class="section-header">
@@ -454,47 +447,45 @@
                 </p>
                 <p>In Python a function is defined using the def keyword followed by the function name and parentheses "()":</p>
                 <code>
-                    def function_name( parameters ):
+                    &nbsp;&nbsp;def function_name( parameters ):
                     <br>
-                        >>> function_suite
+                        &nbsp;&nbsp;&nbsp;&nbsp; function_suite
                     <br>
                     <br>
-                    def my_function(str):
+                    &nbsp;&nbsp;def my_function(str):
                     <br>
-                        >>> print("Hello " + str)
+                        &nbsp;&nbsp;&nbsp;&nbsp; print("Hello " + str)
                 </code>
                 <p>To call a function, use the function name followed by parenthesis:</p>
                 <code>
-                    def my_function():
+                    &nbsp;&nbsp;def my_function():
                     <br>
-                        >>> print("Hello from a function")
+                    &nbsp;&nbsp;&nbsp;&nbsp; print("Hello from a function")
                     <br>
                     <br>
-                    my_function()
+                    &nbsp;&nbsp;my_function()
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
                 <p>Information can be passed into functions as arguments during the time when they are being called.</p>
                 <p>Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.</p>
                 <p>The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:</p>
                 <code>
-                    def my_function(fname):
+                    &nbsp;&nbsp;def my_function(fname):
                     <br>
-                        >>> print(fname + " Refsnes")
+                    &nbsp;&nbsp;&nbsp;&nbsp; print(fname + " Refsnes")
                     <br>
                     <br>
-                    my_function("Emil")
+                    &nbsp;&nbsp;my_function("Emil")
                     <br>
-                    my_function("Tobias")
+                    &nbsp;&nbsp;my_function("Tobias")
                     <br>
-                    my_function("Linus")
+                    &nbsp;&nbsp;my_function("Linus")
                 </code>
-                <p class="action_call">Then hit the run button to see the output.</p>
             </section>
             <section class="main-section" id="Reference">
                 <header class="section-header">
                     <h3>Reference</h3>
                 </header>
-                <p>All the documentation in this page is combined from different websites on <a href="https://www.google.com/search?sxsrf=ALeKk03Bi1V3mVxHPiVapNpd-AYyXjvCOg%3A1605547273651&source=hp&ei=CbWyX47gJIWdlwTU9KXgBQ&q=python&oq=python&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzIECC4QJzIECCMQJzILCAAQsQMQgwEQkQIyBwgAEBQQhwIyAggAMgIILjICCAAyAggAMgIILjoHCCMQ6gIQJzoFCAAQkQI6BQgAELEDOgUILhCxAzoICAAQsQMQgwFQhhRY1iJgpStoAXAAeACAAZQDiAGIEpIBBTMtNC4ymAEAoAEBqgEHZ3dzLXdperABCg&sclient=psy-ab&ved=0ahUKEwjOiKfXyYftAhWFzoUKHVR6CVwQ4dUDCAc&uact=5" target="_blank">GOOGLE</a></p>
+                <p>All the documentation in this page is combined from different websites on <a href="https://www.google.com/search?sxsrf=ALeKk03Bi1V3mVxHPiVapNpd-AYyXjvCOg%3A1605547273651&source=hp&ei=CbWyX47gJIWdlwTU9KXgBQ&q=python&oq=python&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzIECC4QJzIECCMQJzILCAAQsQMQgwEQkQIyBwgAEBQQhwIyAggAMgIILjICCAAyAggAMgIILjoHCCMQ6gIQJzoFCAAQkQI6BQgAELEDOgUILhCxAzoICAAQsQMQgwFQhhRY1iJgpStoAXAAeACAAZQDiAGIEpIBBTMtNC4ymAEAoAEBqgEHZ3dzLXdperABCg&sclient=psy-ab&ved=0ahUKEwjOiKfXyYftAhWFzoUKHVR6CVwQ4dUDCAc&uact=5" target="_blank">Google</a></p>
             </section>
         </main>
     </div>
